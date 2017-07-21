@@ -33,7 +33,6 @@ body {
   margin-right: 13px;
 }
 .b1 {
-  padding: 10px;
   background-color: white;
   color: red;
   position: relative;
@@ -41,32 +40,10 @@ body {
   border-radius: 2px;
   border-width: thin;
   border: solid red;
-  box-shadow: 2px 2px 2px black;
-  margin: 10px;
+  left: 40px;
+  text-align: center;
 }
 .b1:hover {
-  background-color: orange;
-  color: black;
-}
-.b2 {
-  width: 20px;
-  height: 20px;
-  padding-right: 2px;
-  padding-top: 2px;
-  padding-left: 2px;
-  padding-right: 2px;
-  background-color: white;
-  color: red;
-  position: relative;
-  float: right;
-  border-radius: 2px;
-  border-width: thin;
-  border: solid red;
-  box-shadow: 5px 5px 5px black;
-  margin: 10px;
-  margin-top: -20px;
-}
-.b2:hover {
   background-color: orange;
   color: black;
 }
