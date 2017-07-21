@@ -1,0 +1,78 @@
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: black;
+}
+body {
+  height: 100%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #f1f1f1;
+  color: black;
+  overflow-x: hidden;
+  font-family: Oswald, sans-serif;
+}
+.sitetype {
+  width: 70%;
+  height: 150px;
+  position: relative;
+  left: -1000px;
+  margin-right: 15%;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px gray;
+  border-width: thin;
+  border: solid black;
+  border-radius: 15px;
+}
+.sitetype p {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.b1 {
+  width: 20px;
+  height: 20px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: white;
+  color: red;
+  position: relative;
+  float: right;
+  border-radius: 2px;
+  border-width: thin;
+  border: solid red;
+  box-shadow: 5px 5px 5px black;
+  margin: 10px;
+  margin-top: -20px;
+}
+.b1:hover {
+  background-color: orange;
+  color: black;
+}
+.b2 {
+  width: 20px;
+  height: 20px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: white;
+  color: red;
+  position: relative;
+  float: right;
+  border-radius: 2px;
+  border-width: thin;
+  border: solid red;
+  box-shadow: 5px 5px 5px black;
+  margin: 10px;
+  margin-top: -20px;
+}
+.b2:hover {
+  background-color: orange;
+  color: black;
+}
