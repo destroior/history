@@ -25,26 +25,6 @@ function detectmob() {
     return false;
   }
 }
-function startdetect2() {
-  var u = detectmob2()
-}
-function detectmob2() {
- if( navigator.userAgent.match(/Android/i)
- || navigator.userAgent.match(/webOS/i)
- || navigator.userAgent.match(/iPhone/i)
- || navigator.userAgent.match(/iPad/i)
- || navigator.userAgent.match(/iPod/i)
- || navigator.userAgent.match(/BlackBerry/i)
- || navigator.userAgent.match(/Windows Phone/i)
- ){
-    mobile=1;
-    return true;
-  }
- else {
-    mobile=0;
-    return false;
-  }
-}
 var op = 0;
 var op2 = 0;
 var op3 = 0;
@@ -90,27 +70,14 @@ function isopening4() {
   else { clearInterval(puta); isopening5(); return }
 }
 function isopening5() {
-  var x = document.getElementById('nn');
-  if(mobile==0){
-    x.style.top="10%";
-    x.style.left="5%";
-    x.style.margin="0px";
-    x.style.marginRight="-5%";
-    x.style.width="90%";
-    x.style.height="80%";
-    x.style.backgroundColor="white";
-    x.style.borderWidth="thin";
-    x.style.border="solid gray";
-    x.style.boxShadow="5px 5px 5px darkgray";
-  } else {
-    x.style.margin="0px";
-    x.style.width="100%";
-    x.style.height="100%";
-    x.style.backgroundColor="white";
-    x.style.borderWidth="thin";
-    x.style.border="solid gray";
-    x.style.boxShadow="5px 5px 5px darkgray";
-  }
+  var x = document.body
+  x.style.margin="5%";
+  x.style.width="90%";
+  x.style.height="80%";
+  x.style.backgroundColor="white";
+  x.style.borderWidth="thin";
+  x.style.border="solid gray";
+  x.style.boxShadow="5px 5px 5px darkgray";
   isopening6();
 }
 function isopening6() {
@@ -139,32 +106,4 @@ function isopening8() {
 function isopening9() {
   clearInterval(puta);
   window.open("inicio.html","_self");
-}
-var yy = 0;
-function inyear() {
-  var x = document.getElementById('showy1');
-  if(yy==0) {
-    yy=1;
-    x.style.display="inline-block";
-    return
-  }
-  else {
-    yy=0;
-    x.style.display="none";
-    return
-  }
-}
-var yy2 = 0;
-function inyear2() {
-  var x = document.getElementById('showy2');
-  if(yy2==0) {
-    yy2=1;
-    x.style.display="inline-block";
-    return
-  }
-  else {
-    yy2=0;
-    x.style.display="none";
-    return
-  }
 }

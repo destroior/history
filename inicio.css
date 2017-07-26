@@ -4,11 +4,12 @@ html {
   background-color: gray;
 }
 body {
-  height: 2000px;
+  height: 100%;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 0%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   background-color: #f1f1f1;
   color: black;
   overflow-x: hidden;
@@ -26,87 +27,52 @@ body {
   width: 100%;
   height: 100px;
   text-align: center;
-}
-.menul {
   position: relative;
-  left: 45%;
-  margin-right: -45%;
-  color: #f2f2f2;
-  height: auto;
-  width: 200px;
-  z-index: 1;
+  left: 30%;
+  margin-right: -30%;
 }
-.menul li {
-  list-style: none;
-  width: 25px;
-  height: 25px;
+.menub {
+  float: left;
+  background-color: gray;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  font-size: 15px;
+  display: none;
+}
+.menu .icon {
+  float: left;
+  margin-left: 15%;
+  margin-right: -15%;
   background-color: gray;
   text-decoration: none;
   color: white;
   padding: 10px;
 }
-.submenu {
-  display: none;
-  background-color: gray;
-  color: white;
-  height: 100%;
-  width: 100%;
-  list-style:none;
-  float: left;
-  clear: left;
-}
-.submenu li {
-  height: 50px;
-  width: 100%;
-  margin: 0px;
-  text-align: center;
-  box-shadow: 5px 5px 5px black;
-  margin-bottom: 5px;
-}
-.menub {
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
-  color: white;
-  font-size: 20px;
-  margin: 0px;
-}
-.menul li:hover{
+.menu .icon:hover {
   background-color: red;
   color: yellow;
+  box-shadow: 5px 5px 5px black;
 }
-.menul li:hover, .menub:hover{
-  color: yellow;
-}
-.phist {
-  position: absolute;
-  left: 5%;
-  margin: 30px;
-  color: black;
-  font-size: 15px;
-  width: 70%;
-  height: 400px;
-}
-figure {
-  position: absolute;
-  right: 3%;
-}
-.vapor {
-  float: left;
-  height: 180px;
-  width: 15%;
-}
-figcaption {
-  color: red;
-}
-@media screen and (max-width: 800px) {
-  .menul {
-    left: 10%;
+.menu.responsive {position: relative; }
+.menu.responsive a.menub {
+    width: 200px;
+    height: auto;
+    border-radius:0px;
+    background-color: gray;
+    clear: both;
+    display: inline-block;
+    text-align: center;
   }
-  .phist {
-    width: 40%;
+  .menu.responsive a:hover {
+    background-color: red;
+    color: yellow;
   }
-  body {
-    height: 1200px;
+  .isframe {
+    width: 100%;
+    height: 60%;
+    margin-top: 80px;
   }
-}
