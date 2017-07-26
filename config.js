@@ -140,3 +140,31 @@ function isopening9() {
   clearInterval(puta);
   window.open("inicio.html","_self");
 }
+var yy = 0;
+function inyear() {
+  var x = document.getElementById('showy1');
+  if(yy==0) {
+    yy=1;
+    x.style.display="inline-block";
+    return
+  }
+  else {
+    yy=0;
+    x.style.display="none";
+    return
+  }
+}
+var yy2 = 0;
+function inyear2() {
+  var x = document.getElementById('showy2');
+  if(yy2==0) {
+    yy2=1;
+    x.style.display="inline-block";
+    return
+  }
+  else {
+    yy2=0;
+    x.style.display="none";
+    return
+  }
+}
