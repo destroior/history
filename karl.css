@@ -94,11 +94,18 @@ body {
 }
 figure {
   float: right;
+  border-width: thin;
+  border: solid black;
+  border-top-left-radius:22px;
+  border-top-right-radius:22px;
 }
 figcaption {
   color: red;
-  width: 150px;
-  height: 100px;
+  width: 164px;
+  height: 50px;
+  margin-top: -4px;
+  border-width: thin;
+  border: solid black;
 }
 @media screen and (max-width: 800px) {
   .menul {
