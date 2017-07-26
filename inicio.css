@@ -1,0 +1,112 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+}
+body {
+  height: 800px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0%;
+  background-color: #f1f1f1;
+  color: black;
+  overflow-x: hidden;
+  font-family: Oswald, sans-serif;
+}
+.logo {
+  width: 100%;
+  height: 200px;
+  background-image: url('logo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.menu {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.menul {
+  position: relative;
+  left: 45%;
+  margin-right: -45%;
+  color: #f2f2f2;
+  height: auto;
+  width: 200px;
+  z-index: 1;
+}
+.menul li {
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  background-color: gray;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.submenu {
+  display: none;
+  background-color: gray;
+  color: white;
+  height: 100%;
+  width: 100%;
+  list-style:none;
+  float: left;
+  clear: left;
+}
+.submenu li {
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+  margin-bottom: 5px;
+}
+.menub {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+.menul li:hover{
+  background-color: red;
+  color: yellow;
+}
+.menul li:hover, .menub:hover{
+  color: yellow;
+}
+.phist {
+  position: absolute;
+  left: 5%;
+  margin: 30px;
+  color: black;
+  font-size: 15px;
+  width: 70%;
+  height: 400px;
+}
+figure {
+  position: absolute;
+  right: 3%;
+}
+.vapor {
+  float: left;
+  height: 180px;
+  width: 15%;
+}
+figcaption {
+  color: red;
+}
+@media screen and (max-width: 800px) {
+  .menul {
+    left: 10%;
+  }
+  .phist {
+    width: 40%;
+  }
+  body {
+    height: 1200px;
+  }
+}
